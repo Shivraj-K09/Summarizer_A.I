@@ -182,7 +182,7 @@ const Demo = () => {
           {!showResults && (
             <form
               action=""
-              className="mb-2 w-[300px] md:w-[650px] inline-flex items-center justify-center"
+              className="mb-2 w-[300px] md:w-[650px] inline-flex items-center justify-center flex flex-col"
               onSubmit={handleTextSubmit}
             >
               <textarea
@@ -196,7 +196,7 @@ const Demo = () => {
 
               <button
                 type="submit"
-                className="submit_btn-textarea peer-focus:border-gray-700 peer-focus:text-gray-700"
+                className="submit_btn-textarea peer-focus:border-gray-700 peer-focus:text-gray-700 mt-5 bg-[#1f1f1f] text-white px-4 py-2 rounded-md"
               >
                 Submit
               </button>
