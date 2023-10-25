@@ -187,6 +187,7 @@ const Demo = () => {
             >
               <textarea
                 rows="18"
+                resize="none"
                 placeholder="Enter the paragraph to summarize"
                 value={paragraph}
                 onChange={handleParagraphChange}
