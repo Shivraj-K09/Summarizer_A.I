@@ -186,7 +186,7 @@ const Demo = () => {
               onSubmit={handleTextSubmit}
             >
               <textarea
-                rows="4"
+                rows="18"
                 placeholder="Enter the paragraph to summarize"
                 value={paragraph}
                 onChange={handleParagraphChange}
