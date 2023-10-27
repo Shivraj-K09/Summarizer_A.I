@@ -1,22 +1,13 @@
 import { ChevronRight } from "lucide-react";
-import { GitHub, logo } from "../assets";
+import { logo } from "../assets";
 import { TypeAnimation } from "react-type-animation";
 import { Link } from "react-router-dom";
 
 const Hero = () => (
   <div className="w-full flex justify-center items-center flex-col">
     <header className="w-full flex justify-center items-center flex-col">
-      <nav className="flex justify-between items-center w-full pt-3">
+      <nav className="flex justify-center items-center w-full pt-3">
         <img src={logo} alt="Logo sumz" className="w-28 object-contain" />
-
-        <a
-          type="button"
-          onClick={() => window.open("https://github.com/Shivraj-K09")}
-          className="black_btn flex items-center gap-2"
-        >
-          <GitHub />
-          GitHub
-        </a>
       </nav>
     </header>
 
